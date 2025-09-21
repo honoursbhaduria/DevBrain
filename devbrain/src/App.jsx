@@ -1,17 +1,22 @@
-function App(){
+import React, { useState } from 'react'
 
-  return  <div>
+const App = () => {
+  const a = 20
+  const [user, setUser] = useState("honours")
+    const [num, setnum] = useState(0)
+  const changeName = () => {
+    setUser("aryan") // update the state
+    console.log("changed the name")
+  }
 
-
-<h1> hello </h1>
-<h2>not hello guy's</h2>
-
-
-
-
-
-
-  </div>
+  return (
+    <div>
+      <h1>value of a is {a}</h1>
+      <h2>hello {user} age {num}</h2>
+      <button onClick={changeName} >change the name </button>
+      <button onClick={()=> {setnum(num+10)}}>incriment </button>
+    </div>
+  )
 }
 
 export default App
