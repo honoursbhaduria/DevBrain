@@ -2,52 +2,55 @@ import React from 'react'
 
 const LandingPage = () => {
   return (
-    <div className='w-full h-screen bg-zinc-900 pt-2'>
+    <div className="w-full min-h-screen bg-zinc-900 pt-2 flex flex-col">
         
-        <div className="w-full  flex flex-col bg-zinc-900 pt-24">
-            <div className='text-md font-light tracking-tight leading-none text-zinc-500'>{'[ACCESS GRANTED]' }</div>
-            <div className="textsstructure">
-                {["Design.", "Develop .. ", "Deliver .. ."].map((item, index) => (
-          <div 
-            key={index} 
-            className="masker text-[7.5vw] px-20 leading-none tracking-tighter font-semibold"
-          >
-            <h1 className="hover:text-blue-400">{item}</h1>
-          </div>
-          
-        ))}
-        
-                
-                 
-                </div>
-            
 
-            
+      <div className="w-full flex flex-col bg-zinc-900 pt-24 px-5 sm:px-10 lg:px-20">
+        <div className="text-sm sm:text-md font-light tracking-tight leading-none text-zinc-500">
+          {'[ACCESS GRANTED]'}
         </div>
 
-        <div className="border-t border-zinc-800 w-full h-px mt-10 flex justify-between px-20 py-5">
-            {["<script>alert('DevBrain')</script>", "Initializing... ██████░░░░ 42%"].map((item, index) => (
-                <p
-                key={index}
-                className="text-md font-light tracking-tight leading-none text-zinc-400"
-                >
+        <div className="textsstructure space-y-4 sm:space-y-6">
+          {["Design.", "Develop .. ", "Deliver .. ."].map((item, index) => (
+            <div 
+              key={index} 
+              className="masker text-[10vw] sm:text-[7vw] md:text-[5vw] lg:text-[4.5vw] leading-none tracking-tighter font-semibold"
+            >
+              <h1 className="hover:text-blue-400 flex items-center gap-3 sm:gap-4 flex-wrap">
                 {item}
-                </p>
-            ))}
+
+                {/*  i liked this shit gola */}
+                {item.includes("Develop") && (
+                  <div className="w-4 h-4 sm:w-6 sm:h-6 rounded-full bg-blue-500 animate-pulse shadow-[0_0_20px_#3b82f6]"></div>
+                )}
+              </h1>
+            </div>
+          ))}
         </div>
+      </div>
 
+      <div className="border-t border-zinc-800 w-full h-px mt-10 flex flex-col sm:flex-row justify-between gap-3 px-5 sm:px-10 lg:px-20 py-5">
+        {[
+          "<script>alert('DevBrain')</script>", 
+          "Initializing... █████████░░░░ 69%"
+        ].map((item, index) => (
+          <p
+            key={index}
+            className="text-xs  mt-auto sm:text-sm md:text-md font-light tracking-tight leading-none text-zinc-400 break-words"
+          >
+            {item}
+          </p>
+        ))}
+      </div>
 
-        <div className='start '>
-                <div className='px-5 py-1 border-2 rounded-full'> start exploring  </div>
+      
+      <div className="start flex justify-center sm:justify-start px-5 sm:px-10 lg:px-20 mt-6">
+        <div className="px-23 sm:px-5 py-2 border-2 rounded-full text-sm sm:text-base text-zinc-200 hover:bg-zinc-800 cursor-pointer">
+          start exploring
         </div>
-
-
+      </div>
     </div>
-    
-
-
   )
 }
 
 export default LandingPage
-
