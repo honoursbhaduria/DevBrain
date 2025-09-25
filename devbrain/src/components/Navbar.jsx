@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react"; 
+import { FiGithub } from "react-icons/fi";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -26,12 +27,12 @@ function Navbar() {
           ))}
         </div>
 
-        {/*  Toggle */}
+        {/*  TOOggle */}
         <button
           className="md:hidden text-zinc-300 hover:text-blue-400"
           onClick={() => setOpen(!open)}
         >
-          {open ? <X size={24} /> : <Menu size={24} />}
+          {open ? <X size={30} /> : <Menu size={24} />}
         </button>
       </div>
 
@@ -48,6 +49,7 @@ function Navbar() {
               {item}
             </a>
           ))}
+          <FiGithub />
         </div>
       )}
     </nav>

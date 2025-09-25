@@ -32,20 +32,28 @@ const LandingPage = () => {
       <div className="border-t border-zinc-800 w-full h-px mt-10 flex flex-col sm:flex-row justify-between gap-3 px-5 sm:px-10 lg:px-20 py-5">
         {[
           "<script>alert('DevBrain')</script>", 
-          "Initializing... █████████░░░░ 69%"
+          "Initializing...  69%"
         ].map((item, index) => (
           <p
             key={index}
-            className="text-xs  mt-auto sm:text-sm md:text-md font-light tracking-tight leading-none text-zinc-400 break-words"
+            className="text-xs capitalize mt-auto sm:text-xs md:text-md font-light tracking-tight leading-none text-zinc-400 break-words"
           >
             {item}
           </p>
         ))}
+        
       </div>
 
       
+      
       <div className="start flex justify-center sm:justify-start px-5 sm:px-10 lg:px-20 mt-6">
-        <div className="px-23 sm:px-5 py-2 border-2 rounded-full text-sm sm:text-base text-zinc-200 hover:bg-zinc-800 cursor-pointer">
+        <div className="flex items-center gap-3 px-6 py-2 border-2 rounded-full text-sm sm:text-base text-zinc-200 hover:bg-zinc-800 cursor-pointer transition">
+          
+          
+          <span className="text-blue-400 font-bold animate-pulse drop-shadow-[0_0_10px_#3b82f6]">
+            {'=>'}
+          </span>
+
           start exploring
         </div>
       </div>
