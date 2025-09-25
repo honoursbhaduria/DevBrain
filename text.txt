@@ -1,0 +1,8 @@
+navbar 
+landing page 
+marquee
+about 
+playboy
+cards 
+reads 
+
