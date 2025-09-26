@@ -8,6 +8,7 @@ const LandingPage = () => {
       <div className="w-full flex flex-col bg-zinc-900 pt-24 px-5 sm:px-10 lg:px-20">
         <div className="text-sm sm:text-md font-light tracking-tight leading-none text-zinc-500">
           {'[ACCESS GRANTED]'}
+
         </div>
 
         <div className="textsstructure space-y-4 sm:space-y-6">
@@ -17,14 +18,29 @@ const LandingPage = () => {
               className="masker text-[10vw] sm:text-[7vw] md:text-[5vw] lg:text-[4.5vw] leading-none tracking-tighter font-semibold"
             >
               <h1 className="hover:text-blue-400 flex items-center gap-3 sm:gap-4 flex-wrap">
-                {item}
+                
+
+
+                {item.includes("Develop") && (
+                      <img 
+                        src="https://avatars.githubusercontent.com/u/185463007?v=4" 
+                       className="w-10 h-10 sm:w-14 sm:h-14 object-contain rounded-lg"                      />
+                    )}
+
+                  {item}
 
                 {/*  i liked this shit gola */}
                 {item.includes("Develop") && (
-                  <div className="w-4 h-4 sm:w-6 sm:h-6 rounded-full bg-blue-500 animate-pulse shadow-[0_0_20px_#3b82f6]"></div>
+                  <>
+                    <div className="w-4 h-4 sm:w-6 sm:h-6 rounded-full bg-blue-500 animate-pulse shadow-[0_0_20px_#3b82f6]"></div>
+
+                 
+                  </>
+                  
                 )}
               </h1>
             </div>
+            
           ))}
         </div>
       </div>

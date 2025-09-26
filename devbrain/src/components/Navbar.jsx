@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import { Menu, X } from "lucide-react"; 
 import { FiGithub } from "react-icons/fi";
 
+
 function Navbar() {
   const [open, setOpen] = useState(false);
 
-  const links = ["Services", "About Me", "About Services", "Insights"];
+  const links = ["Services", "About Me", "Resume", "Insights"];
 
   return (
     <nav className="fixed top-0 left-0 z-50 w-full bg-zinc-900 border-b border-zinc-800">
@@ -49,7 +50,13 @@ function Navbar() {
               {item}
             </a>
           ))}
-          <FiGithub />
+          
+          <a href="https://github.com/honoursbhaduria" target="_blank" rel="noopener noreferrer">
+            <div className="flex items-center gap-2 hover:text-blue-400 transition px-5 py-2 border-2 rounded-full text-sm border-t-2">
+              <FiGithub size={18} />
+              <span>GitHub</span>
+            </div>
+          </a>
         </div>
       )}
     </nav>
