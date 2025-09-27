@@ -2,10 +2,9 @@ import React from 'react'
 
 const LandingPage = () => {
   return (
-    <div className="w-full min-h-screen bg-zinc-900 pt-2 flex flex-col">
+    <div className="w-full min-h-screen bg-zinc-900 pt-28 flex flex-col">
         
-
-      <div className="w-full flex flex-col bg-zinc-900 pt-24 px-5 sm:px-10 lg:px-20">
+      <div className="w-full flex flex-col bg-zinc-900 pt-25 px-5 sm:px-10 lg:px-20">
         <div className="text-sm sm:text-md font-light tracking-tight leading-none text-zinc-500">
           {'[ACCESS GRANTED]'}
 
@@ -15,7 +14,7 @@ const LandingPage = () => {
           {["Design.", "Develop .. ", "Deliver .. ."].map((item, index) => (
             <div 
               key={index} 
-              className="masker text-[10vw] sm:text-[7vw] md:text-[5vw] lg:text-[4.5vw] leading-none tracking-tighter font-semibold"
+              className="masker text-[15vw] sm:text-[15vw] md:text-[5vw] lg:text-[4.5vw] leading-none tracking-tighter font-semibold"
             >
               <h1 className="hover:text-blue-400 flex items-center gap-3 sm:gap-4 flex-wrap">
                 
