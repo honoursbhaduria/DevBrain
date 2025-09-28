@@ -42,7 +42,7 @@ const About = () => {
         
        
         <div className="md:w-1/2">
-          <h2 className="text-5xl font-bold">OUR Approach</h2>
+          <h2 className="text-5xl font-bold">Our Approach</h2>
           <button className="flex gap-3 items-center px-8 py-4 uppercase bg-zinc-900 text-white rounded-full mt-8 hover:bg-zinc-800 transition">
             Read more
             <div className="w-2.5 h-2.5 bg-zinc-100 rounded-full"></div>
