@@ -20,24 +20,24 @@ const Marquee = () => {
 
           {/* First copy */}
           <h1 className="text-[22vw] leading-none px-10 font-semibold">
-            I am Honours Bhadauria
+            initializing DevBrain v1.0
           </h1>
           <h1 className="text-[22vw] leading-none px-10 font-semibold">
             initializing DevBrain v1.0
           </h1>
           <h1 className="text-[22vw] leading-none px-10 font-semibold">
-            I am Honours Bhadauria
+            initializing DevBrain v1.0
           </h1>
 
           {/* Second copy (for seamless loop) */}
           <h1 className="text-[22vw] leading-none px-10 font-semibold">
-            I am Honours Bhadauria
+            initializing DevBrain v1.0
           </h1>
           <h1 className="text-[22vw] leading-none px-10 font-semibold">
-            initializing DevBrain v1.0_
+            initializing DevBrain v1.0
           </h1>
           <h1 className="text-[22vw] leading-none px-10 font-semibold">
-            I am Honours Bhadauria
+            initializing DevBrain v1.0
           </h1>
         </motion.div>
         
