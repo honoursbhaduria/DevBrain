@@ -6,6 +6,7 @@ import About from './components/About'
 import Eyes from './components/Eyes'
 import Featured from './components/Featured'
 import Cards from './components/cards'
+import Footer from './components/Footer'
 
 const App = () => {
   
@@ -19,6 +20,7 @@ const App = () => {
         <Eyes/>
         <Featured/>
         <Cards/>
+        <Footer/>
     </div>
   ) 
 }

@@ -17,24 +17,24 @@ const Cards = () => {
             <tr>
               <th className="w-1/2 border border-zinc-700 p-4">Project Name</th>
               <th className="w-1/4 border border-zinc-700 p-4">Status</th>
-              <th className="w-1/4 border border-zinc-700 p-4">Lead Developer</th>
+              <th className="w-1/4 border border-zinc-700 p-4">users_visited</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td className="border border-zinc-700 p-4">Project Alpha</td>
+              <td className="border border-zinc-700 p-4">devbrain</td>
               <td className="border border-zinc-700 p-4">In Progress</td>
-              <td className="border border-zinc-700 p-4">John Doe</td>
+              <td className="border border-zinc-700 p-4">NA</td>
             </tr>
             <tr>
-              <td className="border border-zinc-700 p-4">Project Beta</td>
+              <td className="border border-zinc-700 p-4">attendence kiet </td>
               <td className="border border-zinc-700 p-4">Completed</td>
-              <td className="border border-zinc-700 p-4">Jane Smith</td>
+              <td className="border border-zinc-700 p-4">1500+ </td>
             </tr>
             <tr>
-              <td className="border border-zinc-700 p-4">Project Gamma</td>
-              <td className="border border-zinc-700 p-4">Pending Review</td>
-              <td className="border border-zinc-700 p-4">Alice Lee</td>
+              <td className="border border-zinc-700 p-4">Portfolio</td>
+              <td className="border border-zinc-700 p-4">Completed</td>
+              <td className="border border-zinc-700 p-4">10+ </td>
             </tr>
           </tbody>
         </table>

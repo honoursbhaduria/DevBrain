@@ -22,7 +22,8 @@ const LandingPage = () => {
 
                 {item.includes("Develop") && (
                       <img 
-                        src="https://avatars.githubusercontent.com/u/185463007?v=4" 
+                      src="https://avatars.githubusercontent.com/u/185463007?v=4" 
+ 
                        className="w-10 h-10 sm:w-14 sm:h-14 object-contain rounded-lg"                      />
                     )}
 
