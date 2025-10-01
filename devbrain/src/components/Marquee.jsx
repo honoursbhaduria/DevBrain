@@ -3,7 +3,7 @@ import React from "react";
 
 const Marquee = () => {
   return (
-    <div className="w-full py-10 rounded-tl-3xl rounded-tr-3xl bg-[#004D43] overflow-hidden relative">
+    <div  className="w-full py-10 rounded-tl-3xl rounded-tr-3xl bg-[#004D43] overflow-hidden relative">
       <div className="flex border-t-2 border-b-2 border-zinc-300 uppercase -mb-1 pt-4 gap-10 whitespace-nowrap">
         
         {/* Wrap the text group and animate it */}

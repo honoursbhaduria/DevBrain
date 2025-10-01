@@ -20,8 +20,8 @@ const Eyes = () => {
   }, []);
 
   return (
-    <div className="eyes w-full h-screen">
-      <div className='relative w-full h-full bg-cover bg-center bg-[url("https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg")]'>
+    <div  className="eyes w-full h-screen relative ">
+      <div   className='relative w-full h-full bg-cover bg-center bg-[url("https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg")]'>
         
         {/* Eyes wrapper */}
         <div className="absolute flex gap-6 sm:gap-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 

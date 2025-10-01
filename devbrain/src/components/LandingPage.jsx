@@ -2,7 +2,7 @@ import React from 'react'
 
 const LandingPage = () => {
   return (
-    <div className="w-full min-h-screen bg-zinc-900 pt-28 flex flex-col">
+    <div  className="w-full min-h-screen bg-zinc-900 pt-28 flex flex-col relative">
         
       <div className="w-full flex flex-col bg-zinc-900 pt-25 px-5 sm:px-10 lg:px-20">
         <div className="text-sm sm:text-md font-light tracking-tight leading-none text-zinc-500">

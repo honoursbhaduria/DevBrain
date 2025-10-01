@@ -7,9 +7,15 @@ import Eyes from './components/Eyes'
 import Featured from './components/Featured'
 import Cards from './components/cards'
 import Footer from './components/Footer'
+import LocomotiveScroll from 'locomotive-scroll';
+import 'locomotive-scroll/dist/locomotive-scroll.css'; 
+
+
 
 const App = () => {
   
+const locomotiveScroll = new LocomotiveScroll();
+
 
   return (
     < div className='w-full min-h-screen  text-white bg-zinc-900' >
