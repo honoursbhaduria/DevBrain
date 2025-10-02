@@ -6,7 +6,7 @@ import { FiGithub } from "react-icons/fi";
 function Navbar() {
   const [open, setOpen] = useState(false);
 
-  const links = ["Services", "About Me", "Resume", "Insights"];
+  const links = ["get jam ", "Create Jam", "Profile", "your Jam"];
 
   return (
     <nav className="fixed top-0 left-0 z-50 w-full bg-zinc-900 border-b border-zinc-800">
