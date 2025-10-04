@@ -1,8 +1,8 @@
-navbar 
-landing page 
-marquee
-about 
-playboy
-cards 
-reads 
+navbar  completed
+landing page completed
+marquee. completed
+about completed
+playboy completed
+cards completed
+reads completed 
 
